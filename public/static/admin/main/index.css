@@ -1,0 +1,92 @@
+body {
+	background-color: #f2f2f2;
+}
+.wrap {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* head */
+.main .head {
+	height: 39px;
+	background-color: #232121;
+}
+.main .head .logo {
+	float: left;
+	width: 101px;
+	height: 30px;
+	margin: 5px 0px;
+	overflow: hidden;
+}
+.main .head .logo img {
+	width: 101px;
+	height: 30px;
+}
+.main .head .nav > ul {
+	float: right;
+}
+.main .head .nav li {
+	float: left;
+	padding: 8px 15px;
+	text-align: right;
+}
+.main .head .nav li a, .main .head .nav li span {
+	display: block;
+	color: #fff;
+	padding: 5px 10px;
+}
+.main .head .nav li a:hover {
+	background-color: #c34b1f;
+}
+
+/* end of head */
+
+/* banner */
+.main .banner {
+	height: 360px;
+	min-width: 960px;
+	background-image: url(/static/static/images/banner.png);
+	background-size: 100% 100%;
+}
+.main .banner .immediate {
+	position: relative;
+	height: 100%;
+}
+.main .banner .immediate a {
+	position: absolute;
+	top: 244px;
+	left: 98px;
+	color: #fff;
+	line-height: 30px;
+	text-align: center;
+	height: 30px;
+	width: 150px;
+	background-color: #333;
+	border-radius: 4px;
+}
+.main .banner .immediate a:hover {
+	background-color: #000;
+}
+
+/* end of banner */
+
+/* content */
+.content {
+	background-color: #fff;
+	padding: 10px;
+}
+.content h2 {
+	padding: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.content .descript h3 {
+	padding: 10px;
+	font-size: 18px;
+}
+.content .descript p {
+	padding: 5px;
+	margin: 5px;
+}
+
+/* end of content */

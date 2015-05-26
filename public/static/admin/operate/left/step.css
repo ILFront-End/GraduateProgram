@@ -1,0 +1,18 @@
+.contentMenu {
+	line-height: 26px;
+	border: 1px solid #e7b5c9;
+	border-bottom-width: 0;
+}
+.contentMenu .menu-tips {
+	border-bottom: 1px solid #e7b5c9;
+}
+.contentMenu .menu-tips > a {
+	display: block;
+	color: #8b7d56;
+	padding: 0 10px;
+	background-color: rgba(236, 211, 210, 1);
+}
+.contentMenu .menu-tips > a:hover {
+	color: #b5bc89;
+	background-color: rgba(240, 241, 220, 1);
+}

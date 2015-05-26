@@ -1,0 +1,71 @@
+.popup-wrap {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 1001;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.1);
+	display: none;
+}
+.popup {
+	position: absolute;
+	color: #666666;
+	font-size: 12px;
+	line-height: 20px;
+	background: #fff;
+}
+.popup .p-title {
+	color: #fff;
+	font-size: 16px;
+	height: 30px;
+	line-height: 30px;
+	padding: 0px;
+	margin: 0px;
+	padding: 0 30px 0 10px;
+	background-color: #FF9900;
+}
+.popup .p-title .close {
+	position: relative;
+	height: 100%;
+	width: 30px;
+	display: block;
+	float: right;
+	margin-right: -30px;
+}
+.popup .p-title .close:before, .popup .p-title .close:after {
+	content: '';
+	position: absolute;
+	top: 27%;
+	right: 15px;
+	height: 15px;
+	width: 1px;
+	background-color: rgba(255, 255, 255, 1);
+}
+.popup .p-title .close:before {
+	transform: rotate(-45deg);
+}
+.popup .p-title .close:after {
+	transform: rotate(45deg);
+}
+.popup .p-content {
+	padding: 10px;
+}
+.popup .p-footer {
+	padding: 0 10px 10px;
+	zoom: 1;
+}
+.popup .p-footer:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.popup .p-footer > a {
+	float: left;
+	color: #fff;
+	padding: 0px 10px;
+	margin-right: 5px;
+	background-color: #FF9900;
+	text-decoration: none;
+}

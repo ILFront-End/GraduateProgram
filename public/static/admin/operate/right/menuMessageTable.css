@@ -1,0 +1,23 @@
+.tableMessage .tableText{
+    width: 30px;
+    height: 30px;
+}
+.tableMessage label{
+    font-weight: bold;
+}
+.tableStyle{
+    overflow: hidden;
+    zoom: 1;
+    margin-bottom: 10px;
+}
+.ts {
+    width: 62px;
+    height: 47px;
+    float: left;
+    cursor:pointer;
+    border: 1px solid transparent;
+    margin: 0 2px;
+}
+.setNum{
+    text-align: center;
+}

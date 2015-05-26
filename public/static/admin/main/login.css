@@ -1,0 +1,123 @@
+/* login */
+.login-wrap {
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 1001;
+	background-color: rgba(0, 0, 0, 0.1);
+	background: linear-gradient(0, rgba(136, 145, 191, 0.7), 100%, rgba(201, 179, 205, 0.73))
+}
+#login {
+	position: absolute;
+	left: 470px;
+	top: 150px;
+	line-height: 20px;
+	border: 1px solid #aaa;
+	background-color: #fff;
+	border-radius: 5px;
+}
+#login .head {
+	padding: 10px 15px 10px;
+	border-bottom: 1px solid #e4e4e4;
+}
+#login .head h2 {
+	color: #464646;
+	font-size: 14px;
+}
+#login .head p {
+	color: #919191;
+	font-size: 11px;
+}
+#login .head .close {
+	position: absolute;
+	top: -6px;
+	right: -6px;
+	width: 29px;
+	height: 29px;
+	background: #fff;
+	border: 1px solid #aaa;
+	border-radius: 15px;
+}
+#login .head .close:before, #login .head .close:after {
+	content: '';
+	position: absolute;
+	top: 27%;
+	right: 15px;
+	height: 15px;
+	width: 1px;
+	background-color: rgba(0, 0, 0, 1);
+}
+#login .head .close:before {
+	transform: rotate(-45deg);
+}
+#login .head .close:after {
+	transform: rotate(45deg);
+}
+#login .content {
+	padding: 15px;
+	line-height: 20px;
+	border-radius: 5px;
+}
+#login #loginForm {
+}
+#login #loginForm > div {
+	position: relative;
+	padding-bottom: 15px;
+}
+#login #loginForm p {
+	padding-bottom: 3px;
+}
+#login #loginForm span {
+	color: #888888;
+	width: 56px;
+}
+#login #loginForm input {
+	font-size: 16px;
+	color: #989898;
+	line-height: 36px;
+	height: 34px;
+	width: 336px;
+	padding: 0 10px;
+	border: 1px solid #e2e2e2;
+	border-radius: 3px;
+	box-shadow: -1px 0px 0px 1px #e2e2e2;
+	outline-color: #30b0e2;
+}
+#login #loginForm .login-btn {
+	display: inline-block;
+	color: #132e34;
+	line-height: 34px;
+	text-align: center;
+	font-size: 14px;
+	height: 32px;
+	width: 90px;
+	border-radius: 3px;
+	background-color: #3abfe7;
+}
+#login #loginForm a.login-btn.able {
+	border-bottom: 1px solid #348fe4;
+	border-right: 1px solid #348fe4;
+}
+#login #loginForm a.login-btn.able:hover {
+	border-left: 1px solid #009bc9;
+	border-top: 1px solid #009bc9;
+	border-bottom-width: 0;
+	border-right-width: 0;
+}
+#login #loginForm a.login-btn.disable {
+	background-color: #d0d5da;
+}
+#login .content .tips {
+	padding-top: 10px;
+}
+#login .content .tips .ok {
+	color: #7abd54;
+}
+#login .content .tips .error {
+	color: #e4393c;
+}
+
+/* end of login */

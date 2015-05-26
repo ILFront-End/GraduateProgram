@@ -1,0 +1,122 @@
+.rightContent{
+    position: relative;
+    min-height: 100%;
+    margin: 30px;
+}
+.selectModule{
+    display: block;
+    color: #fff;
+    background-color: #F90;
+    margin: 10px auto;
+    width: 80px;
+    text-align: center;
+    padding: 5px;
+}
+.canMove {
+    overflow: hidden;
+    zoom: 1;
+    margin-bottom: 30px;
+    border: 1px solid transparent;
+    width: 100%;
+    list-style: initial;
+}
+.canMove:hover{
+    border: 1px solid #ccc;
+}
+.rightInputStyle{
+    display:block;
+}
+.addlabel{
+    float: left;
+    margin-right: 25px;
+    font-size: 20px;
+    clear: both;
+}
+.textareaDiv{
+    width: 100%;
+}
+.addLabelText{
+    font-size: 20px;
+}
+.rightTableStyle{
+    /*width: 80%;*/
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    background-color: #edf2f6;
+    border-color: #ccc;
+    overflow: inherit;
+}
+.rightTableStyle tr,.rightTableStyle th,.rightTableStyle td{
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.rightTableStyle th,.rightTableStyle td{
+    line-height: 30px;
+}
+.rightTableStyle th{
+    background-color: #6495FF;
+    color: #fff;
+    font-weight:bold;
+}
+.formText{
+    position: relative;
+}
+.rightTextStyle{
+    display: block;
+    width: 200px;
+    height: 14px;
+    background-color: transparent;
+    margin-bottom: 20px;
+    border-color: transparent;
+    resize:none;
+    overflow: hidden;
+}
+.rightTextList li{
+    margin: 10px;
+    padding: inherit;
+}
+.rightTextList{
+    margin-bottom: 20px;
+    list-style: inherit;
+    padding: inherit;
+    display: block;
+    overflow: inherit;
+}
+.deleteDom{
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background-color: #F00;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.rightInputStyle[type="button"]{
+}
+.rightInputStyle[type="checkbox"]{
+    margin-right: 20px;
+    display: inline-block;
+}
+.rightInputStyle[type="hidden"]{
+}
+.rightInputStyle[type="image"]{
+}
+.rightInputStyle[type="password"]{
+}
+.rightInputStyle[type="radio"]{
+    margin-right: 20px;
+    display: inline-block;
+}
+.rightInputStyle[type="reset"]{
+}
+.rightInputStyle[type="submit"]{
+}
+.rightInputStyle[type="text"]{
+}

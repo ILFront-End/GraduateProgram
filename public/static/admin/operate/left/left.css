@@ -1,0 +1,50 @@
+.my-left {
+	position: relative;
+	height: 100%;
+}
+
+.menu-wrap {
+	position: relative;
+	height: 100%;
+	border-right: 1px solid #354052;
+}
+.menu-wrap div{
+	line-height: 30px;
+	display: none;
+}
+.menu-wrap div a {
+	display: block;
+	border-bottom: 1px solid #666;
+}
+.menu-wrap .first-menu {
+	/* display: none; */
+}
+.menu-wrap .first-menu a{
+	padding-left: 10px;
+}
+.menu-wrap .second-menu {
+	/* display: none; */
+	background-color: rgba(153, 153, 102, 1);
+}
+.menu-wrap .second-menu a{
+	padding-left: 20px;
+}
+.menu-wrap .third-menu {
+	/* display: none; */
+	background-color: rgba(253, 204, 3, 1);
+}
+.menu-wrap .third-menu a{
+	padding-left: 30px;
+}
+
+.my-left .tip-one,
+.my-left .tip-two,
+.my-left .tip-third {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	visibility: hidden;
+}
+
+
+

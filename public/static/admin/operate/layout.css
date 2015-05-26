@@ -1,0 +1,77 @@
+body ,html,.layoutStyle{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.layoutStyle1 .top{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 40px;
+    border-bottom: 1px solid #e2e2e2;
+    box-shadow: -2px 1px 10px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+}
+.layoutStyle1 .wrap{
+    width: 100%;
+    height: 100%;
+}
+.layoutStyle1 .left{
+    background-color: blue;
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color: #354052;
+}
+.layoutStyle1 .right{
+    background-color: green;
+    height: 100%;
+    width: 80%;
+    float: left;
+    background-color: #edf2f6;
+}
+.layoutStyle1 .left>div,.layoutStyle1 .right>div{
+    margin-top: 40px;
+}
+
+
+.layoutStyle2 .left{
+    width: 150px;
+    float: left;
+    height: 100%;
+    background-color: #354052;
+}
+.layoutStyle2 .rightWrap{
+    height: 100%;
+    overflow: auto;
+    background-color: #edf2f6;
+    position: relative;
+    z-index: 0;
+}
+.layoutStyle2 .top{
+    height: 40px;
+    border-bottom: 1px solid #e2e2e2;
+    box-shadow: -2px 1px 10px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+}
+.layoutStyle2 .bottom{
+    height: 100%;
+    background-color: #edf2f6;
+}
+
+
+
+.layoutStyle3 .left{
+    width: 150px;
+    float: left;
+    height: 100%;
+    background-color: #354052;
+}
+.layoutStyle3 .right{
+    height: 100%;
+    overflow: auto;
+    background-color: #edf2f6;
+    position: relative;
+    z-index: 0;
+}
